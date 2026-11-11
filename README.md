@@ -1,4 +1,4 @@
-# Python Calculator App
+# Python Calculator App (Main Edition)
 
 ## What the Project Does
 This project is a Python calculator program that performs basic arithmetic operations such as addition, subtraction, and multiplication using modular functions.
