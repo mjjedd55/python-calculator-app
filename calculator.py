@@ -13,11 +13,25 @@ def multiply(a, b):
     return a * b
 
 
+def divide(a, b):
+    """Return the quotient of two numbers, raising ValueError if b is zero."""
+    if b == 0:
+        raise ValueError("Cannot divide by zero")
+    return a / b
+
+
+def power(a, b):
+    """Return a raised to the power of b."""
+    return a ** b
+
+
 def main():
     print("=== Simple Python Calculator ===")
     print(f"10 + 5 = {add(10, 5)}")
     print(f"10 - 5 = {subtract(10, 5)}")
     print(f"10 * 5 = {multiply(10, 5)}")
+    print(f"10 / 5 = {divide(10, 5)}")
+    print(f"2 ** 3 = {power(2, 3)}")
 
 
 if __name__ == "__main__":
