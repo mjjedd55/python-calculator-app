@@ -13,6 +13,13 @@ def multiply(a, b):
     return a * b
 
 
+def divide(a, b):
+    """Return the quotient of two numbers, raising ValueError if b is zero."""
+    if b == 0:
+        raise ValueError("Cannot divide by zero")
+    return a / b
+
+
 def main():
     print("=== Simple Python Calculator ===")
     print(f"10 + 5 = {add(10, 5)}")
