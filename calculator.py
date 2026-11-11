@@ -20,6 +20,11 @@ def divide(a, b):
     return a / b
 
 
+def power(a, b):
+    """Return a raised to the power of b."""
+    return a ** b
+
+
 def main():
     print("=== Simple Python Calculator ===")
     print(f"10 + 5 = {add(10, 5)}")
